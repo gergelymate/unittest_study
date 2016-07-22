@@ -10,7 +10,7 @@ class TestMain(TestCase):
         self.assertEqual(expected, result)
 
     def test__prime_true2(self):
-        expected = True
+        expected = False
         result = prime_check(1)
         self.assertEqual(expected, result)
 

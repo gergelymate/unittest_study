@@ -24,6 +24,8 @@ def prime_check(number):
             if number % i == 0:
                 result = False
                 break
+    elif number < 2:
+        result = False
     return result
 
 def square_number_check(number):
